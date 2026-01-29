@@ -5,7 +5,7 @@ Run a vibe check on your project.
 ## Install
 
 ```
-/plugin install github:danbuckley/vibe-check
+/plugin install github:buckle42/vibe-check
 ```
 
 ## Usage
