@@ -11,12 +11,22 @@ A fun stats dashboard for [Claude Code](https://claude.ai/claude-code) (Anthropi
 
 ## Installation
 
-1. Open Claude Code in your terminal
-2. Run the install command:
+1. Open Claude Code in your terminal:
    ```
-   /plugin install github:buckle42/vibe-check
+   claude
    ```
-3. When prompted, approve the plugin installation
+
+2. Add the plugin marketplace:
+   ```
+   /plugin marketplace add buckle42/vibe-check
+   ```
+
+3. Install the plugin:
+   ```
+   /plugin install vibe-check@buckle42-vibe-check
+   ```
+
+4. When prompted, approve the plugin installation
 
 ## Usage
 

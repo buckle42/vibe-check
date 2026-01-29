@@ -1,0 +1,10 @@
+{
+  "name": "vibe-check-marketplace",
+  "description": "Fun CLI stats dashboard for Claude Code",
+  "plugins": [
+    {
+      "name": "vibe-check",
+      "path": "."
+    }
+  ]
+}
