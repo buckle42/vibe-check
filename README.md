@@ -1,48 +1,20 @@
 # vibe-check
 
-A fun stats dashboard for [Claude Code](https://claude.ai/claude-code) (Anthropic's CLI). Run a vibe check on any project to see lines of code, commit streaks, activity heatmaps, and nerd culture fun facts.
+A fun stats dashboard for your code projects. See lines of code, commit streaks, activity heatmaps, and nerd culture fun facts.
 
-## Requirements
+## Quick Start
 
-- [Claude Code](https://claude.ai/claude-code) installed
-- [Node.js](https://nodejs.org/) v18+
-- Git
-- Must be run inside a git repository
-
-## Installation
-
-1. Open Claude Code in your terminal:
-   ```
-   claude
-   ```
-
-2. Add the plugin marketplace:
-   ```
-   /plugin marketplace add buckle42/vibe-check
-   ```
-
-3. Install the plugin:
-   ```
-   /plugin install vibe-check@buckle42-vibe-check
-   ```
-
-4. When prompted, approve the plugin installation
-
-5. **Restart Claude Code** - quit the current session and start a new one for the plugin to load
-
-## Usage
-
-1. Navigate to any git project in your terminal
-2. Start Claude Code:
-   ```
-   claude
+1. Open your terminal
+2. Navigate to any git project:
+   ```bash
+   cd ~/your-project
    ```
 3. Run the vibe check:
+   ```bash
+   npx @buckle42/vibe-check
    ```
-   /vibe-check
-   ```
-4. First time only: approve the permission to run the stats script
-5. Press **ctrl+o** to expand and see the full dashboard
+
+That's it! Works on any git repository with code files.
 
 ## What You Get
 
@@ -54,6 +26,36 @@ A fun stats dashboard for [Claude Code](https://claude.ai/claude-code) (Anthropi
 - **Vibecoding vs Human** - how much faster you shipped with Claude
 - **Fun facts** - your codebase measured in Death Star trench runs, Tetris lines, LOTR journeys, and more
 - **Random encouragement** - keep shipping
+
+## Requirements
+
+- [Node.js](https://nodejs.org/) v18+
+- Git
+- Must be run inside a git repository
+
+## Claude Code Plugin
+
+Want `/vibe-check` as a slash command in [Claude Code](https://claude.ai/claude-code)?
+
+1. Open Claude Code:
+   ```
+   claude
+   ```
+
+2. Add the marketplace and install:
+   ```
+   /plugin marketplace add buckle42/vibe-check
+   /plugin install vibe-check@buckle42-vibe-check
+   ```
+
+3. Restart Claude Code
+
+4. Navigate to a git project and run:
+   ```
+   /vibe-check
+   ```
+
+5. Press **ctrl+o** to expand and see the full dashboard
 
 ## License
 

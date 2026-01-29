@@ -1,0 +1,29 @@
+{
+  "name": "@buckle42/vibe-check",
+  "version": "1.0.0",
+  "description": "Fun CLI dashboard showing project stats - lines of code, git commits, activity heatmaps, and nerd culture fun facts",
+  "bin": {
+    "vibe-check": "./bin/vibe-check.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "cli",
+    "dashboard",
+    "stats",
+    "git",
+    "developer-tools",
+    "productivity"
+  ],
+  "author": "Dan Buckley",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buckle42/vibe-check.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin"
+  ]
+}
