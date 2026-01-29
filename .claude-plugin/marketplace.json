@@ -1,10 +1,21 @@
 {
   "name": "vibe-check-marketplace",
-  "description": "Fun CLI stats dashboard for Claude Code",
+  "owner": {
+    "name": "Dan Buckley"
+  },
+  "metadata": {
+    "description": "Fun CLI stats dashboard for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "vibe-check",
-      "path": "."
+      "source": {
+        "source": "url",
+        "url": "https://github.com/buckle42/vibe-check.git"
+      },
+      "description": "Fun animated dashboard with project stats - lines of code, git commits, activity calendar, trophies, and nerd culture fun facts",
+      "version": "1.0.0"
     }
   ]
 }
