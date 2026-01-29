@@ -2,6 +2,8 @@
 
 A fun stats dashboard for your code projects. See lines of code, commit streaks, activity heatmaps, and nerd culture fun facts.
 
+![vibe-check screenshot](screenshot.png)
+
 ## Quick Start
 
 1. Open your terminal
