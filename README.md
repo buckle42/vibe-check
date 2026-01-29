@@ -28,6 +28,8 @@ A fun stats dashboard for [Claude Code](https://claude.ai/claude-code) (Anthropi
 
 4. When prompted, approve the plugin installation
 
+5. **Restart Claude Code** - quit the current session and start a new one for the plugin to load
+
 ## Usage
 
 1. Navigate to any git project in your terminal
@@ -40,6 +42,7 @@ A fun stats dashboard for [Claude Code](https://claude.ai/claude-code) (Anthropi
    /vibe-check
    ```
 4. First time only: approve the permission to run the stats script
+5. Press **ctrl+o** to expand and see the full dashboard
 
 ## What You Get
 

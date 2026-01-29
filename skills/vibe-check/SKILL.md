@@ -10,5 +10,7 @@ Run the vibe-check stats dashboard to see project statistics.
 
 Execute this command:
 ```bash
-npx tsx ${PLUGIN_DIR}/scripts/stats.ts
+npx tsx ${PLUGIN_DIR}/../../scripts/stats.ts
 ```
+
+After the command completes, tell the user: "Press **ctrl+o** to expand and see the full dashboard!"
