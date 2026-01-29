@@ -1,0 +1,6 @@
+{
+  "name": "vibe-check",
+  "description": "Fun CLI dashboard showing project statistics with nerd culture facts",
+  "version": "1.0.0",
+  "author": { "name": "Dan Buckley" }
+}
